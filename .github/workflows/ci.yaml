@@ -9,6 +9,7 @@ jobs:
     - uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-    - run: python build.py
+    - run: curl -sfS https://dotenvx.sh/install.sh | sh
+    - run: dotenvx run -- python build.py
       env:
         DOTENV_PRIVATE_KEY_CI: ${{ secrets.DOTENV_PRIVATE_KEY_CI }}
