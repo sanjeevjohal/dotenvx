@@ -1,5 +1,6 @@
 # dotenvx
-dotenvx sandpit
+- dotenvx sandpit
+- used to experiment with encrypting environment variables and using GitHub secrets & actions
 
 # Links
 - [dotenvx_cis](https://dotenvx.com/docs/cis/github-actions)
